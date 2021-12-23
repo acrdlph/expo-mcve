@@ -1,8 +1,33 @@
-export default ({ config }) => {
-  console.log(config);
-  return {
-    name: "test name",
-    slug: "test slug",
-    ...config,
-  };
+const name = process.env.APP_ENV === "dev" ? "dev" : "test";
+
+export default {
+  name: name,
+  version: "1.0.0",
+  slug: "uikittenmapping3",
+  version: "1.0.0",
+  orientation: "portrait",
+  icon: "./assets/icon.png",
+  splash: {
+    image: "./assets/splash.png",
+    resizeMode: "contain",
+    backgroundColor: "#ffffff",
+  },
+  updates: {
+    fallbackToCacheTimeout: 0,
+  },
+  assetBundlePatterns: ["**/*"],
+  ios: {
+    supportsTablet: true,
+    bundleIdentifier: "bla.bla",
+  },
+  android: {
+    adaptiveIcon: {
+      foregroundImage: "./assets/adaptive-icon.png",
+      backgroundColor: "#FFFFFF",
+    },
+    package: "bla.bla",
+  },
+  web: {
+    favicon: "./assets/favicon.png",
+  },
 };
