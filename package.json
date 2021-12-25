@@ -10,6 +10,7 @@
     "eject": "expo eject"
   },
   "dependencies": {
+    "@react-native-google-signin/google-signin": "^7.0.4",
     "expo": "~44.0.0",
     "expo-dev-client": "~0.7.2",
     "expo-status-bar": "~1.2.0",

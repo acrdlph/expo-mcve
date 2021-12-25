@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "uikittenmapping3",
-    "slug": "uikittenmapping3",
+    "name": "Expo MCVE",
+    "slug": "Expo MCVE",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -13,19 +13,19 @@
     "updates": {
       "fallbackToCacheTimeout": 0
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.achill.expo-mcve"
+      "bundleIdentifier": "com.achill.expo-mcve",
+      "googleServicesFile": "./GoogleService-Info.plist"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
       },
-      "package": "com.achill.expo_mcve"
+      "package": "com.achill.expo_mcve",
+      "googleServicesFile": "./google-services.json"
     },
     "web": {
       "favicon": "./assets/favicon.png"
