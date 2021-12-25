@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1009157140968",
+    "firebase_url": "https://blockradar-5af36.firebaseio.com",
+    "project_id": "blockradar-5af36",
+    "storage_bucket": "blockradar-5af36.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1009157140968:android:ae450902b028ca670c345d",
+        "android_client_info": {
+          "package_name": "com.achill.expo_mcve"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1009157140968-1c29fbf1db25b5152l9nml9qag11nkj3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBK2mseVP0MyNvxsYB6XHK0k4tLiroC6PY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1009157140968-1c29fbf1db25b5152l9nml9qag11nkj3.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1009157140968-immu40vphqus2nllvotco3a7q6bh1ffm.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.achill.expo-mcve"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
