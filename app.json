@@ -1,8 +1,9 @@
 {
   "expo": {
-    "name": "uikittenmapping3",
-    "slug": "uikittenmapping3",
-    "version": "1.0.0",
+    "name": "NoGame",
+    "slug": "nogameapp",
+    "scheme": "app.nogame",
+    "version": "0.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "splash": {
@@ -13,19 +14,18 @@
     "updates": {
       "fallbackToCacheTimeout": 0
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.achill.expo-mcve"
+      "bundleIdentifier": "app.nogame"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#FFFFFF"
+        "backgroundColor": "#FFFFFF",
+        "versionCode": 100000000
       },
-      "package": "com.achill.expo_mcve"
+      "package": "app.nogame"
     },
     "web": {
       "favicon": "./assets/favicon.png"
