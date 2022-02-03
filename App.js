@@ -10,8 +10,7 @@ WebBrowser.maybeCompleteAuthSession();
 
 export default function App() {
   const [request, response, promptAsync] = Google.useIdTokenAuthRequest({
-    expoClientId:
-      "968503045529-8h4bll53juu1q5i0ke6do9ppadbnji9d.apps.googleusercontent.com",
+    expoClientId: "GOOGLE_GUID.apps.googleusercontent.com",
     // iosClientId: 'GOOGLE_GUID.apps.googleusercontent.com',
     androidClientId: "GOOGLE_GUID.apps.googleusercontent.com",
   });
